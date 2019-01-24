@@ -4,7 +4,9 @@
   "description": "Node unit homework",
   "main": "app.js",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "axois": "^1.0.0",
+    "dotenv": "^6.2.0"
   },
   "devDependencies": {},
   "scripts": {
