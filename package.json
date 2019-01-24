@@ -1,0 +1,24 @@
+{
+  "name": "LIRI-Bot",
+  "version": "1.0.0",
+  "description": "Node unit homework",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ischu/LIRI-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ischu/LIRI-Bot/issues"
+  },
+  "homepage": "https://github.com/ischu/LIRI-Bot#readme"
+}
