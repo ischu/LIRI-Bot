@@ -1,11 +1,14 @@
 require("dotenv").config();
+const moment = require("moment");
+console.log(moment().format("MM/DD/YYYY"));
 const fs = require("fs");
 const axios = require("axios");
 const keys = require("./keys.js");
 const Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
-// function to concatenate arguments after the third into one search
+// very inportant for formatting
 const squigString = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+// function to concatenate arguments after the third into one search
 var makeQueryString = function () {
   let queryString = " ";
   for (i = 3; i < process.argv.length; i++) {
@@ -77,7 +80,7 @@ function bandSearch(bandQuery) {
         function logBandData(b) {
           console.log("\nVenue Name: " + b.venue.name);
           console.log("Concert Location: " + b.venue.city + ", " + b.venue.region);
-          console.log("Date of Concert: " + b.datetime);
+          console.log("Date of Concert: " + moment(b.datetime).format("MM/DD/YYYY"));
           console.log(squigString);
         }
         logBandData(b)
@@ -118,7 +121,7 @@ function randomSearch(){
       console.log(error);
     }
     let dataArray = data.split(",");
-    // checks index 0 for question 
+    // checks index 0 for question and runs appropriate function
     switch(dataArray[0]){
       case "spotify-this-song":
       // searches for index 1 after removing quotes
@@ -133,7 +136,3 @@ function randomSearch(){
     };
   });
 }
-
-// list of commands to impliment:
-
-// do-what-it-says
