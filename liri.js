@@ -4,6 +4,7 @@ const keys = require("./keys.js");
 const Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
 // function to concatenate arguments after the third into one search
+const squigString = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
 var makeQueryString = function () {
   let queryString = " ";
   for (i = 3; i < process.argv.length; i++) {
@@ -33,7 +34,9 @@ switch (searchType) {
     } else { spotSearch(searchQuery); }
     break;
   case "concert-this":
-    bandSearch(searchQuery);
+    if (!searchQuery) {
+      bandSearch("Rolling Stones")
+    } else { bandSearch(searchQuery); }
     break;
   case "movie-this":
     if (!searchQuery) {
@@ -58,53 +61,57 @@ function spotSearch(songQuery) {
         console.log("Artist: " + data.tracks.items[i].artists[0].name);
         console.log("Album: " + data.tracks.items[i].album.name);
         console.log("Preview Link: " + data.tracks.items[i].preview_url);
-        console.log("~~~~~~~~~~~~~~~~~~~~");
+        console.log(squigString);
       }
     };
   });
 };
 function bandSearch(bandQuery) {
-  axios.get("https://rest.bandsintown.com/artists/pink/events?app_id=trinity").then(function (data) {
-    // for (i = 0; i < data.length; i++) {
-      console.log("Venue Name: " + JSON.stringify(data, null, 2));
-      // console.log("Concert Location: " + data.EventData.venue.city + ", " + EventData.venue.region);
-      // console.log("Date of Concert: " + data.EventData.datetime);
-    // };
+  let q = "https://rest.bandsintown.com/artists/" + bandQuery + "/events?app_id=trinity";
+  axios.get(q).then(function (response) {
+    // if there are 10 or more hits, only the first 10 will be logged
+    if (response.data.length >= 10) {
+      for (i = 0; i < 10; i++) {
+        let b = response.data[i];
+        function logBandData(b) {
+          console.log("\nVenue Name: " + b.venue.name);
+          console.log("Concert Location: " + b.venue.city + ", " + b.venue.region);
+          console.log("Date of Concert: " + b.datetime);
+          console.log(squigString);
+        }
+        logBandData(b)
+      }
+    }
+    // if there are less than ten but more than one hit(s), only the first will be logged. 
+    else if (response.data.length >= 1) {
+      let b = response.data[0];
+      logBandData(b);
+    }
+    // if no hits, console will tell user via log
+    else{
+      console.log("Sorry, it seems that band is not currently touring.")
+    };
+  }).catch(function (error) {
+    console.log(error);
   });
 };
-function movieSearch(movieQuery){
+function movieSearch(movieQuery) {
   let queryURL = "https://www.omdbapi.com/?t=" + movieQuery + "&y=&plot=short&apikey=trilogy";
-  axios.get(queryURL).then(function(response){
+  axios.get(queryURL).then(function (response) {
     let m = response.data;
-    // console.log(JSON.stringify(m, null, 2));
     console.log("Movie Title: " + m.Title);
-    console.log("Year of Release: "+m.Year);
-    console.log("IMDB Rating: "+m.Ratings[0].Value);
-    console.log("Rotten Tomatoes Rating: "+m.Ratings[1].Value);
-    console.log("Country of Production: "+ m.Country)
-    console.log("Plot: "+ m.Plot)
-    console.log("Language: "+ m.Language)
-    console.log("Starring: "+ m.Actors)
-
-
-
-  }).catch(function(error) {
+    console.log("Year of Release: " + m.Year);
+    console.log("IMDB Rating: " + m.Ratings[0].Value);
+    console.log("Rotten Tomatoes Rating: " + m.Ratings[1].Value);
+    console.log("Country of Production: " + m.Country)
+    console.log("Plot: " + m.Plot)
+    console.log("Language: " + m.Language)
+    console.log("Starring: " + m.Actors)
+  }).catch(function (error) {
     console.log(error);
   });
 }
 
 // list of commands to impliment:
-// concert-this
-  // Name of the venue
-  // Venue location
-  // Date of the Event (use moment to format this as "MM/DD/YYYY")
-// movie-this
-  // * Title of the movie.
-  // * Year the movie came out.
-  // * IMDB Rating of the movie.
-  // * Rotten Tomatoes Rating of the movie.
-  // * Country where the movie was produced.
-  // * Language of the movie.
-  // * Plot of the movie.
-  // * Actors in the movie.
+
 // do-what-it-says
