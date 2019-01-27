@@ -7,6 +7,7 @@
     "axios": "^0.18.0",
     "axois": "^1.0.0",
     "dotenv": "^6.2.0",
+    "fs": "0.0.1-security",
     "node-spotify-api": "^1.0.7"
   },
   "devDependencies": {},

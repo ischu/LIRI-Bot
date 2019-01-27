@@ -1,4 +1,5 @@
 require("dotenv").config();
+const fs = require("fs");
 const axios = require("axios");
 const keys = require("./keys.js");
 const Spotify = require('node-spotify-api');
@@ -44,7 +45,7 @@ switch (searchType) {
     } else { movieSearch(searchQuery); }
     break;
   case "do-what-it-says":
-    randomSearch(randomQuery);
+    randomSearch();
     break;
 };
 // function searches spotify API and logs values to cmd line
@@ -109,6 +110,27 @@ function movieSearch(movieQuery) {
     console.log("Starring: " + m.Actors)
   }).catch(function (error) {
     console.log(error);
+  });
+};
+function randomSearch(){
+  fs.readFile("random.txt", "utf8", function(error, data){
+    if(error){
+      console.log(error);
+    }
+    let dataArray = data.split(",");
+    // checks index 0 for question 
+    switch(dataArray[0]){
+      case "spotify-this-song":
+      // searches for index 1 after removing quotes
+      spotSearch(dataArray[1].replace(/["]+/g, ''));
+      break;
+      case "concert-this":
+      bandSearch(dataArray[1].replace(/["]+/g, ''));
+      break;
+      case "movie-this":
+      movieSearch(dataArray[1].replace(/["]+/g, ''));
+      break;
+    };
   });
 }
 
