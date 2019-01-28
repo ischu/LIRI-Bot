@@ -1,15 +1,18 @@
+// "require" variables
 require("dotenv").config();
 const moment = require("moment");
-console.log(moment().format("MM/DD/YYYY"));
 const fs = require("fs");
 const axios = require("axios");
 const keys = require("./keys.js");
 const Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
-// very inportant for formatting
+
+// input data variables
+let searchType = process.argv[2];
+let searchQuery = validQuery();
 const squigString = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
 // function to concatenate arguments after the third into one search
-var makeQueryString = function () {
+function makeQueryString() {
   let queryString = " ";
   for (i = 3; i < process.argv.length; i++) {
     queryString = queryString + process.argv[i] + " ";
@@ -17,7 +20,7 @@ var makeQueryString = function () {
   return queryString.trim();
 };
 // checks if search query is string of length greater than 0
-var validQuery = function () {
+function validQuery() {
   if (isNaN(makeQueryString()) && makeQueryString().length > 0) {
     return makeQueryString();
   } else {
@@ -25,33 +28,7 @@ var validQuery = function () {
     return false;
   }
 };
-
-// input data variables
-let searchType = process.argv[2];
-let searchQuery = validQuery();
-
-// switch to determine which type of search user wants
-switch (searchType) {
-  case "spotify-this-song":
-    if (!searchQuery) {
-      spotSearch("The Sign")
-    } else { spotSearch(searchQuery); }
-    break;
-  case "concert-this":
-    if (!searchQuery) {
-      bandSearch("Rolling Stones")
-    } else { bandSearch(searchQuery); }
-    break;
-  case "movie-this":
-    if (!searchQuery) {
-      movieSearch("Mr. Nobody")
-    } else { movieSearch(searchQuery); }
-    break;
-  case "do-what-it-says":
-    randomSearch();
-    break;
-};
-// function searches spotify API and logs values to cmd line
+// search functions
 function spotSearch(songQuery) {
   spotify.search({ type: 'track', query: songQuery }, function (err, data) {
     if (err) {
@@ -92,7 +69,7 @@ function bandSearch(bandQuery) {
       logBandData(b);
     }
     // if no hits, console will tell user via log
-    else{
+    else {
       console.log("Sorry, it seems that band is not currently touring.")
     };
   }).catch(function (error) {
@@ -115,24 +92,57 @@ function movieSearch(movieQuery) {
     console.log(error);
   });
 };
-function randomSearch(){
-  fs.readFile("random.txt", "utf8", function(error, data){
-    if(error){
+function randomSearch() {
+  fs.readFile("random.txt", "utf8", function (error, data) {
+    if (error) {
       console.log(error);
     }
     let dataArray = data.split(",");
     // checks index 0 for question and runs appropriate function
-    switch(dataArray[0]){
+    switch (dataArray[0]) {
       case "spotify-this-song":
-      // searches for index 1 after removing quotes
-      spotSearch(dataArray[1].replace(/["]+/g, ''));
-      break;
+        // searches for index 1 after removing quotes
+        spotSearch(dataArray[1].replace(/["]+/g, ''));
+        break;
       case "concert-this":
-      bandSearch(dataArray[1].replace(/["]+/g, ''));
-      break;
+        bandSearch(dataArray[1].replace(/["]+/g, ''));
+        break;
       case "movie-this":
-      movieSearch(dataArray[1].replace(/["]+/g, ''));
-      break;
+        movieSearch(dataArray[1].replace(/["]+/g, ''));
+        break;
     };
   });
-}
+};
+// log data to log.txt
+function cmdLogger(st, sq) {
+  fs.appendFile("log.txt", st + ", " + '"' + sq + '"\n', function (err) {
+    if (err) {
+      console.log(err);
+    };
+  })
+};
+// switch to determine which type of search user wants
+switch (searchType) {
+  case "spotify-this-song":
+    if (!searchQuery) {
+      spotSearch("The Sign")
+    } else { spotSearch(searchQuery); }
+    cmdLogger(searchType, searchQuery);
+    break;
+  case "concert-this":
+    if (!searchQuery) {
+      bandSearch("Rolling Stones")
+    } else { bandSearch(searchQuery); }
+    cmdLogger(searchType, searchQuery);
+    break;
+  case "movie-this":
+    if (!searchQuery) {
+      movieSearch("Mr. Nobody")
+    } else { movieSearch(searchQuery); }
+    cmdLogger(searchType, searchQuery);
+    break;
+  case "do-what-it-says":
+    randomSearch();
+    cmdLogger(searchType, " ");
+    break;
+};
