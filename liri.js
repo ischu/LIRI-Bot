@@ -40,8 +40,8 @@ function spotSearch(songQuery) {
     }
     // appends search to log.txt
     logAppend(`\n${searchType}, "${songQuery}"${squigString}`);
-    // loops through results
-    for (i = 0; i < data.tracks.items.length; i++) {
+    // loops through first ten results
+    for (i = 0; i < data.tracks.items.length, i<10; i++) {
       // logs info only if responses' track name matches query & removes any text case errors
       if (data.tracks.items[i].name.toLowerCase().includes(songQuery.toLowerCase())) {
         let result =
@@ -135,8 +135,6 @@ function randomSearch() {
         break;
     };
   });
-  // appends command to log.txt (but doesn't append results since they are covered in above functions)
-  logAppend(`\n${searchType}, ${squigString}`);
 };
 // appends to log.txt
 function logAppend(x) {
