@@ -6,11 +6,15 @@ const axios = require("axios");
 const keys = require("./keys.js");
 const Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
-
 // input data variables
 let searchType = process.argv[2];
 let searchQuery = validQuery();
-const squigString = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+// Used to format logged data
+const squigString = "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+// default search queries
+let defaultSong = "The Sign";
+let defaultBand = "The Rolling Stones";
+let defaultMovie = "Mr. Nobody";
 // function to concatenate arguments after the third into one search
 function makeQueryString() {
   let queryString = " ";
@@ -34,60 +38,79 @@ function spotSearch(songQuery) {
     if (err) {
       return console.log('Error occurred: ' + err + "\n Try a different search");
     }
+    // appends search to log.txt
+    logAppend(`\n${searchType}, "${songQuery}"${squigString}`);
     // loops through results
     for (i = 0; i < data.tracks.items.length; i++) {
       // logs info only if responses' track name matches query & removes any text case errors
       if (data.tracks.items[i].name.toLowerCase().includes(songQuery.toLowerCase())) {
-        console.log("\nSong Name: " + data.tracks.items[i].name);
-        console.log("Artist: " + data.tracks.items[i].artists[0].name);
-        console.log("Album: " + data.tracks.items[i].album.name);
-        console.log("Preview Link: " + data.tracks.items[i].preview_url);
-        console.log(squigString);
-      }
+        let result =
+          "\nSong Name: " + data.tracks.items[i].name +
+          "\nArtist: " + data.tracks.items[i].artists[0].name +
+          "\nAlbum: " + data.tracks.items[i].album.name +
+          "\nPreview Link: " + data.tracks.items[i].preview_url;
+        // logs search results to the console and log.txt
+        console.log(result + squigString);
+        logAppend(result + squigString);
+      };
     };
   });
 };
 function bandSearch(bandQuery) {
   let q = "https://rest.bandsintown.com/artists/" + bandQuery + "/events?app_id=trinity";
   axios.get(q).then(function (response) {
+    // appends search to log.txt
+    logAppend(`\n${searchType}, "${bandQuery}"${squigString}`);
+    // function for logging band data
+    function logBandData(b) {
+      result = "\nVenue Name: " + b.venue.name +
+        "\nConcert Location: " + b.venue.city + ", " + b.venue.region +
+        "\nDate of Concert: " + moment(b.datetime).format("MM/DD/YYYY");
+      return result;
+    }
     // if there are 10 or more hits, only the first 10 will be logged
     if (response.data.length >= 10) {
       for (i = 0; i < 10; i++) {
         let b = response.data[i];
-        function logBandData(b) {
-          console.log("\nVenue Name: " + b.venue.name);
-          console.log("Concert Location: " + b.venue.city + ", " + b.venue.region);
-          console.log("Date of Concert: " + moment(b.datetime).format("MM/DD/YYYY"));
-          console.log(squigString);
-        }
-        logBandData(b)
+        // log to console and log.txt
+        console.log(logBandData(b) + squigString);
+        logAppend(logBandData(b) + squigString);
       }
     }
     // if there are less than ten but more than one hit(s), only the first will be logged. 
     else if (response.data.length >= 1) {
       let b = response.data[0];
-      logBandData(b);
+      console.log(logBandData(b) + squigString);
+      logAppend(logBandData(b) + squigString);
     }
     // if no hits, console will tell user via log
     else {
-      console.log("Sorry, it seems that band is not currently touring.")
+      let b = "\nSorry, it seems that band is not currently touring.";
+      console.log(b);
+      logAppend(b + squigString);
     };
   }).catch(function (error) {
     console.log(error);
   });
 };
 function movieSearch(movieQuery) {
+  // appends search to log.txt
+  logAppend(`\n${searchType}, "${movieQuery}"${squigString}`);
   let queryURL = "https://www.omdbapi.com/?t=" + movieQuery + "&y=&plot=short&apikey=trilogy";
   axios.get(queryURL).then(function (response) {
     let m = response.data;
-    console.log("Movie Title: " + m.Title);
-    console.log("Year of Release: " + m.Year);
-    console.log("IMDB Rating: " + m.Ratings[0].Value);
-    console.log("Rotten Tomatoes Rating: " + m.Ratings[1].Value);
-    console.log("Country of Production: " + m.Country)
-    console.log("Plot: " + m.Plot)
-    console.log("Language: " + m.Language)
-    console.log("Starring: " + m.Actors)
+    let result =
+      "\nMovie Title: " + m.Title +
+      "\nYear of Release: " + m.Year +
+      "\nIMDB Rating: " + m.Ratings[0].Value +
+      "\nRotten Tomatoes Rating: " + m.Ratings[1].Value +
+      "\nCountry of Production: " + m.Country +
+      "\nPlot: " + m.Plot +
+      "\nLanguage: " + m.Language +
+      "\nStarring: " + m.Actors;
+    // logs results in log and console
+    console.log(result);
+    logAppend(result + squigString);
   }).catch(function (error) {
     console.log(error);
   });
@@ -112,10 +135,12 @@ function randomSearch() {
         break;
     };
   });
+  // appends command to log.txt (but doesn't append results since they are covered in above functions)
+  logAppend(`\n${searchType}, ${squigString}`);
 };
-// log data to log.txt
-function cmdLogger(st, sq) {
-  fs.appendFile("log.txt", st + ", " + '"' + sq + '"\n', function (err) {
+// appends to log.txt
+function logAppend(x) {
+  fs.appendFile("log.txt", x, function (err) {
     if (err) {
       console.log(err);
     };
@@ -125,24 +150,20 @@ function cmdLogger(st, sq) {
 switch (searchType) {
   case "spotify-this-song":
     if (!searchQuery) {
-      spotSearch("The Sign")
+      spotSearch(defaultSong)
     } else { spotSearch(searchQuery); }
-    cmdLogger(searchType, searchQuery);
     break;
   case "concert-this":
     if (!searchQuery) {
-      bandSearch("Rolling Stones")
+      bandSearch(defaultBand)
     } else { bandSearch(searchQuery); }
-    cmdLogger(searchType, searchQuery);
     break;
   case "movie-this":
     if (!searchQuery) {
-      movieSearch("Mr. Nobody")
+      movieSearch(defaultMovie)
     } else { movieSearch(searchQuery); }
-    cmdLogger(searchType, searchQuery);
     break;
   case "do-what-it-says":
     randomSearch();
-    cmdLogger(searchType, " ");
     break;
 };

@@ -1,2 +1,277 @@
-movie-this, "rambo"
-movie-this, "bambi"
+ 
+Movie Title: Jumanji
+Year of Release: 1995
+IMDB Rating: 6.9/10
+Rotten Tomatoes Rating: 53%
+Country of Production: USA
+Plot: When two kids find and play a magical board game, they release a man trapped for decades in it and a host of dangers that can only be stopped by finishing the game.
+Language: English, French
+Starring: Robin Williams, Jonathan Hyde, Kirsten Dunst, Bradley Pierce
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+concert-this, "tame impala"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Coachella Music and Arts Festival
+Concert Location: Indio, CA
+Date of Concert: 04/20/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Central Park
+Concert Location: Atlanta, GA
+Date of Concert: 05/03/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Coachella Music and Arts Festival
+Concert Location: Indio, CA
+Date of Concert: 04/13/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Explanada Estadio Akron
+Concert Location: Zapopan, 
+Date of Concert: 05/11/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Harvard Athletic Complex
+Concert Location: Boston, MA
+Date of Concert: 05/25/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Bois de Vincennes
+Concert Location: Paris, 
+Date of Concert: 06/01/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Plaine De La Belle Etoile Au Bois De Vincennes
+Concert Location: Paris, 
+Date of Concert: 06/02/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Harvard Athletic Complex
+Concert Location: Boston, MA
+Date of Concert: 05/24/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Parc del Fòrum
+Concert Location: Barcelona, 
+Date of Concert: 05/30/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Tøyenparken
+Concert Location: Oslo, 
+Date of Concert: 08/06/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spotify-this-song, "ocean man"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: Ocean Man
+Artist: Ween
+Album: The Mollusk
+Preview Link: https://p.scdn.co/mp3-preview/a34c1a880f5c688fd9282beafec42ab13ab9a07b?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: Ocean Man - Live
+Artist: Ween
+Album: Live at Stubb's
+Preview Link: https://p.scdn.co/mp3-preview/6a793782fe29e72b5dae4a9dcceeb87b2ac70db5?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: Ocean Man
+Artist: Ween
+Album: The SpongeBob SquarePants Movie-Music From The Movie and More
+Preview Link: https://p.scdn.co/mp3-preview/a34c1a880f5c688fd9282beafec42ab13ab9a07b?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+do-what-it-says, "false"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+do-what-it-says, "false"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: The Hits--Chapter One
+Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: Millennium
+Preview Link: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Anthem Lights
+Album: Covers Part IV
+Preview Link: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Tyler and Mark
+Album: Beautiful Dreams
+Preview Link: https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Artist: "Weird Al" Yankovic
+Album: Poodle Hat
+Preview Link: https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Dynamite Boy
+Album: Punk Goes Pop
+Preview Link: null
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: 90 Sweet 90s Hits!
+Preview Link: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: NKOTBSB
+Preview Link: https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Artist: Glee Cast
+Album: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Preview Link: https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Boyce Avenue
+Album: Cover Sessions, Vol. 2
+Preview Link: https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Manuel Costa
+Album: I Want It That Way
+Preview Link: https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Steel Panther
+Album: I Want It That Way
+Preview Link: null
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Scary Pockets
+Album: Nu Funk
+Preview Link: https://p.scdn.co/mp3-preview/33685e005149d5e7d0199a764163ff77f7762e29?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Scott Bradlee's Postmodern Jukebox
+Album: Selfies on Kodachrome
+Preview Link: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Artist: "Weird Al" Yankovic
+Album: The Essential "Weird Al" Yankovic
+Preview Link: https://p.scdn.co/mp3-preview/5632d8e302d70afaa8f79c962aa4b2032a45b3ef?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: NOW That's What I Call 90s Pop
+Preview Link: https://p.scdn.co/mp3-preview/c9302062adf4f59e60335f30c7ca46b487a267fb?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Landon Austin & Julia Sheer
+Album: I Want It That Way
+Preview Link: https://p.scdn.co/mp3-preview/e777be5446dc3df34abc2eaec241edb5a590976c?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Scott Bradlee's Postmodern Jukebox
+Album: PMJ Is For Lovers: The Love Song Collection
+Preview Link: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: #90s Update
+Album: #90s Update
+Preview Link: https://p.scdn.co/mp3-preview/4722ade5be55bf642f5cc9578b94c092a0fcf3a7?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Kidz Bop Kids
+Album: Kidz Bop
+Preview Link: null
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+do-what-it-says, 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+do-what-it-says, "false"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: The Hits--Chapter One
+Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: Millennium
+Preview Link: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Anthem Lights
+Album: Covers Part IV
+Preview Link: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Tyler and Mark
+Album: Beautiful Dreams
+Preview Link: https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Artist: "Weird Al" Yankovic
+Album: Poodle Hat
+Preview Link: https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Dynamite Boy
+Album: Punk Goes Pop
+Preview Link: null
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: 90 Sweet 90s Hits!
+Preview Link: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: NKOTBSB
+Preview Link: https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Artist: Glee Cast
+Album: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Preview Link: https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Boyce Avenue
+Album: Cover Sessions, Vol. 2
+Preview Link: https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Manuel Costa
+Album: I Want It That Way
+Preview Link: https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Steel Panther
+Album: I Want It That Way
+Preview Link: null
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Scary Pockets
+Album: Nu Funk
+Preview Link: https://p.scdn.co/mp3-preview/33685e005149d5e7d0199a764163ff77f7762e29?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Scott Bradlee's Postmodern Jukebox
+Album: Selfies on Kodachrome
+Preview Link: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Artist: "Weird Al" Yankovic
+Album: The Essential "Weird Al" Yankovic
+Preview Link: https://p.scdn.co/mp3-preview/5632d8e302d70afaa8f79c962aa4b2032a45b3ef?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: #90s Update
+Album: #90s Update
+Preview Link: https://p.scdn.co/mp3-preview/4722ade5be55bf642f5cc9578b94c092a0fcf3a7?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: NOW That's What I Call 90s Pop
+Preview Link: https://p.scdn.co/mp3-preview/c9302062adf4f59e60335f30c7ca46b487a267fb?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Scott Bradlee's Postmodern Jukebox
+Album: PMJ Is For Lovers: The Love Song Collection
+Preview Link: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Landon Austin & Julia Sheer
+Album: I Want It That Way
+Preview Link: https://p.scdn.co/mp3-preview/e777be5446dc3df34abc2eaec241edb5a590976c?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Kidz Bop Kids
+Album: Kidz Bop
+Preview Link: null
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
