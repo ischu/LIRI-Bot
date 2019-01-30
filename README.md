@@ -27,3 +27,4 @@ LIRI bot knows four commands:
 ### Log
 
 LIRI logs every user command and query, as well as all results to a .txt file. 
+![log](images/log.txt.png)
