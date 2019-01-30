@@ -27,10 +27,13 @@ LIRI bot knows four commands:
 ### Defaults
   
 If the user doesn't enter a search query after the command, LIRI will display the default search for each command
+  1. Default song: "The Sign" by Ace of Base"
   ![spotify default](images/Default_Song.png)
   
+  2. Default movie: "Mr. Nobody"
   ![movie default](images/Default_Movie.png)
   
+  3. Default band: The Rolling Stones
   ![band default](images/default_band.png)
 
 ### Log
