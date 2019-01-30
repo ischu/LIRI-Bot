@@ -23,6 +23,15 @@ LIRI bot knows four commands:
   ![band example](images/concert-this.png)
   4. Use "do-what-it-says" to let LIRI-bot decide what data to return!
   ![what-it example](images/do-what-it-says.png)
+  
+### Defaults
+  
+If the user doesn't enter a search query after the command, LIRI will display the default search for each command
+  ![spotify default](images/Default_Song.png)
+  
+  ![movie default](images/Default_Movie.png)
+  
+  ![band default](images/default_band.png)
 
 ### Log
 
