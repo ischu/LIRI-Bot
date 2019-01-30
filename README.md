@@ -16,13 +16,13 @@ LIRI will then log the results to the console in an easy-to-read format.
 
 LIRI bot knows four commands:
   1. Use "spotify-this-song" to return data about songs from Spotify
-      [[pic]]
+  ![spotify example](images/spotify-this-song.png)
   2. Use "movie-this" to return data about a movie from OMDB
-      [[pic]]
+  ![movie example](images/movie-this.png)
   3. Use "concert-this" to return data about upcoming concerts by an artist
-      [[pic]]
+  ![band example](images/concert-this.png)
   4. Use "do-what-it-says" to let LIRI-bot decide what data to return!
-      [[pic]]
+  ![what-it example](images/do-what-it-says.png)
 
 ### Log
 
