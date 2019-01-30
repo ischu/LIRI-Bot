@@ -8,7 +8,7 @@ Just like Siri, LIRI can perform searches for the user. However, instead of sear
 ### Using LIRI bot
 
 The user will begin by entering <node> and then <liri> followed by a command and a search query.
-  [[pic]]
+  [command example](images/command_query.png)
 LIRI will then log the results to the console in an easy-to-read format.
 
 ### Commands
