@@ -1,1 +1,141 @@
  
+movie-this, "the godfather"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Movie Title: The Godfather
+Year of Release: 1972
+IMDB Rating: 9.2/10
+Rotten Tomatoes Rating: 98%
+Country of Production: USA
+Plot: The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
+Language: English, Italian, Latin
+Starring: Marlon Brando, Al Pacino, James Caan, Richard S. Castellano
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spotify-this-song, "ocean man"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: Ocean Man
+Artist: Ween
+Album: The Mollusk
+Preview Link: https://p.scdn.co/mp3-preview/a34c1a880f5c688fd9282beafec42ab13ab9a07b?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: Ocean Man
+Artist: Ween
+Album: The SpongeBob SquarePants Movie-Music From The Movie and More
+Preview Link: https://p.scdn.co/mp3-preview/a34c1a880f5c688fd9282beafec42ab13ab9a07b?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spotify-this-song, "The Sign"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: The Sign
+Artist: Ace of Base
+Album: The Sign (US Album) [Remastered]
+Preview Link: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+spotify-this-song, "adflksdhjkdf"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+movie-this, "cloudy with a chance of meatballs"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Movie Title: Cloudy with a Chance of Meatballs
+Year of Release: 2009
+IMDB Rating: 7.0/10
+Rotten Tomatoes Rating: 86%
+Country of Production: USA
+Plot: A local scientist is often regarded as a failure until he invents a machine that can make food fall from the sky. But little does he know, that things are about to take a turn for the worst.
+Language: English, French, Russian
+Starring: Bill Hader, Anna Faris, James Caan, Andy Samberg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+movie-this, "Mr. Nobody"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Movie Title: Mr. Nobody
+Year of Release: 2009
+IMDB Rating: 7.8/10
+Rotten Tomatoes Rating: 67%
+Country of Production: Belgium, Germany, Canada, France, USA, UK
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Language: English, Mohawk
+Starring: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+concert-this, "his golden messenger"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+concert-this, "tame impala"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Coachella Music and Arts Festival
+Concert Location: Indio, CA
+Date of Concert: 04/13/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Coachella Music and Arts Festival
+Concert Location: Indio, CA
+Date of Concert: 04/20/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Ascend Amphitheater
+Concert Location: Nashville, TN
+Date of Concert: 05/02/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: U.S. Cellular Center Asheville
+Concert Location: Asheville, NC
+Date of Concert: 05/03/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Shaky Knees Music Festival
+Concert Location: Atlanta, GA
+Date of Concert: 05/05/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: The St. Augustine Amphitheatre
+Concert Location: St. Augustine, FL
+Date of Concert: 05/06/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: The Fillmore Miami Beach
+Concert Location: Miami Beach, FL
+Date of Concert: 05/07/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Explanada Estadio Akron
+Concert Location: Zapopan, 
+Date of Concert: 05/11/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Boston Calling Music Festival
+Concert Location: Boston, MA
+Date of Concert: 05/25/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Parc del Fòrum
+Concert Location: Barcelona, 
+Date of Concert: 05/30/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+concert-this, "The Rolling Stones"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Hard Rock Stadium
+Concert Location: Miami Gardens, FL
+Date of Concert: 04/20/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: TIAA Bank Field
+Concert Location: Jacksonville, FL
+Date of Concert: 04/24/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: NRG Arena
+Concert Location: Houston, TX
+Date of Concert: 04/28/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Fairgrounds New Orleans
+Concert Location: New Orleans, LA
+Date of Concert: 05/02/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: State Farm Stadium
+Concert Location: Glendale, AZ
+Date of Concert: 05/07/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Rose Bowl Stadium
+Concert Location: Pasadena, CA
+Date of Concert: 05/11/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Levi's Stadium
+Concert Location: Santa Clara, CA
+Date of Concert: 05/18/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Century Link Field
+Concert Location: Seattle, WA
+Date of Concert: 05/22/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Broncos Stadium at Mile High
+Concert Location: Denver, CO
+Date of Concert: 05/26/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: FedEx Field
+Concert Location: Landover, MD
+Date of Concert: 05/31/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

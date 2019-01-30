@@ -59,7 +59,8 @@ function spotSearch(songQuery) {
 function bandSearch(bandQuery) {
   let q = "https://rest.bandsintown.com/artists/" + bandQuery + "/events?app_id=trinity";
   axios.get(q).then(function (response) {
-    // appends search to log.txt
+    // appends search to log.txt & logs to console
+    console.log(`\n"Upcoming concerts for: " "${bandQuery}"${squigString}`);
     logAppend(`\n${searchType}, "${bandQuery}"${squigString}`);
     // function for logging band data
     function logBandData(b) {
