@@ -139,3 +139,139 @@ Venue Name: FedEx Field
 Concert Location: Landover, MD
 Date of Concert: 05/31/2019
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+concert-this, "The Rolling Stones"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Hard Rock Stadium
+Concert Location: Miami Gardens, FL
+Date of Concert: 04/20/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: TIAA Bank Field
+Concert Location: Jacksonville, FL
+Date of Concert: 04/24/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: NRG Arena
+Concert Location: Houston, TX
+Date of Concert: 04/28/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Fairgrounds New Orleans
+Concert Location: New Orleans, LA
+Date of Concert: 05/02/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: State Farm Stadium
+Concert Location: Glendale, AZ
+Date of Concert: 05/07/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Rose Bowl Stadium
+Concert Location: Pasadena, CA
+Date of Concert: 05/11/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Levi's Stadium
+Concert Location: Santa Clara, CA
+Date of Concert: 05/18/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Century Link Field
+Concert Location: Seattle, WA
+Date of Concert: 05/22/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Broncos Stadium at Mile High
+Concert Location: Denver, CO
+Date of Concert: 05/26/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: FedEx Field
+Concert Location: Landover, MD
+Date of Concert: 05/31/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+concert-this, "tame impala"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Coachella Music and Arts Festival
+Concert Location: Indio, CA
+Date of Concert: 04/13/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Coachella Music and Arts Festival
+Concert Location: Indio, CA
+Date of Concert: 04/20/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Ascend Amphitheater
+Concert Location: Nashville, TN
+Date of Concert: 05/02/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: U.S. Cellular Center Asheville
+Concert Location: Asheville, NC
+Date of Concert: 05/03/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Shaky Knees Music Festival
+Concert Location: Atlanta, GA
+Date of Concert: 05/05/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: The St. Augustine Amphitheatre
+Concert Location: St. Augustine, FL
+Date of Concert: 05/06/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: The Fillmore Miami Beach
+Concert Location: Miami Beach, FL
+Date of Concert: 05/07/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Explanada Estadio Akron
+Concert Location: Zapopan, 
+Date of Concert: 05/11/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Boston Calling Music Festival
+Concert Location: Boston, MA
+Date of Concert: 05/25/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Venue Name: Parc del Fòrum
+Concert Location: Barcelona, 
+Date of Concert: 05/30/2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+do-what-it-says, "I Want it That Way"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: The Hits--Chapter One
+Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: Millennium
+Preview Link: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Anthem Lights
+Album: Covers Part IV
+Preview Link: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Tyler and Mark
+Album: Beautiful Dreams
+Preview Link: https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Artist: "Weird Al" Yankovic
+Album: Poodle Hat
+Preview Link: https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Dynamite Boy
+Album: Punk Goes Pop
+Preview Link: null
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: 90 Sweet 90s Hits!
+Preview Link: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: NKOTBSB
+Preview Link: https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Artist: Glee Cast
+Album: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Preview Link: https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Song Name: I Want It That Way
+Artist: Boyce Avenue
+Album: Cover Sessions, Vol. 2
+Preview Link: https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=f490caf7e7d648318cec88d537aa9f28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
